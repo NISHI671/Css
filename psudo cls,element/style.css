@@ -1,0 +1,39 @@
+a:hover{
+    color: blueviolet;
+}
+a.my-link:hover{
+    color:brown
+    
+}
+input{
+    padding:10px;
+    font-size: medium;
+    width:150px;
+}
+input:focus{
+    color: red;
+    background-color: gold;
+}
+table,tr,td{
+    border: 1px solid black;
+}
+tr:nth-child(odd){
+    background-color: brown;
+}
+tr:nth-child(even){
+    background-color: blue;
+}
+p:hover{
+    color: #000;
+}
+p::first-letter{
+    color:coral;
+    font-size: 50px;
+}
+p::first-line{
+    background-color: aquamarine;
+    color:green;
+}
+p::after{                       /*cyle before o use kora jbe */
+    content: "😊😊";
+}
