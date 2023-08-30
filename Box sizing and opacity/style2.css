@@ -1,0 +1,16 @@
+p{
+    opacity:0.2;
+
+}
+p:hover{
+    opacity: 1;
+    color: red;
+}
+img{
+    height:300px ;
+    width:500px;
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1;
+}
