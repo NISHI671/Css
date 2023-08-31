@@ -1,0 +1,21 @@
+
+p:last-child{
+    background-color: rgb(228, 11, 11);
+    color: rgb(12, 11, 11);
+    width:30rem;
+}
+li:nth-child(odd){
+    background-color: black;
+    color: aqua;
+    width:fit-content;
+}
+p::first-letter{
+    color: rgb(22, 82, 134);
+    font-size: 3rem;
+}
+p::selection{
+    color: brown;
+    background-color: rgb(241, 174, 16);
+}
+
+
