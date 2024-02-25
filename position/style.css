@@ -1,0 +1,46 @@
+.div1{
+    border:3px solid green ;
+    padding:5px;
+    position: static;
+
+
+}
+.div2{
+    border:3px solid #001e80 ;
+    padding:5px;
+    position: relative;
+    left:20px;
+}
+.navbar-div{
+    border:3px solid hsl(308, 100%, 25%) ;
+    padding:5px;
+    position: fixed;
+    left:50%;
+}
+
+.div3{
+    border:10px solid #e0224b ;
+    padding:50px;
+    position: relative;
+    width: 50%;
+    left: 20%;
+    
+}
+
+
+.div4{
+    border:5px solid yellow ;
+    padding:5px;
+    position: absolute;
+    left: 50%;
+    top:70%;
+    
+
+    
+}
+.div5{
+    border:3px solid hsl(308, 100%, 25%) ;
+    padding:5px;
+    
+    left:50%;
+}

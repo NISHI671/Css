@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow and tooltip</title>
+    <style>
+        div{
+            height: 200px;
+            width: 350px;
+            background-color: yellowgreen;
+            border: 2px solid red;
+            overflow: auto;
+            margin-left: 40% ;
+            margin-top: 10%;
+        }
+        .tooltip .tooltiptext{
+                visibility: hidden;
+                width: 150px;
+                background-color: brown;
+                color:#f4f4fc;
+                padding: 10px;
+                border-radius: 5px;
+                position: absolute;
+                top:30px;
+                left:30px;
+                z-index: 1;
+
+        }
+        .tooltip{
+            position: relative;
+            left: 20%;
+            top:30px;
+            font-size: 25px;
+        }
+        .tooltip:hover .tooltiptext{
+            visibility: visible;
+        }
+
+    </style>
+
+</head>
+<body>
+    <a href="#" class="tooltip">Facebook
+        <span class="tooltiptext">Facebook is a social media</span>
+    </a>
+    </br>
+    </br>
+    <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum deserunt, qui ad iure fuga delectus? Quo sequi dignissimos tempora ea velit adipisci non fugit itaque dolores repudiandae, facere dicta inventore odit cumque perspiciatis numquam. Doloribus voluptates debitis laborum dolores? Iste in fugit minus nihil possimus deserunt sed saepe nulla. Odit quis, vero ullam esse eveniet inventore vitae saepe harum eum dolorem commodi accusamus exercitationem labore similique dolore accusantium possimus quam dignissimos porro. Culpa quo non modi quia iusto, maxime dolorum ullam quisquam blanditiis nihil facere autem eum eaque veritatis laboriosam quidem assumenda, ex nobis quam itaque quos a saepe? Repellat, consequuntur ullam corporis itaque repellendus fugit in placeat inventore laudantium, velit temporibus suscipit dolor. </div>
+</body>
+</html>
